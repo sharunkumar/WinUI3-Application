@@ -26,11 +26,11 @@
             Or to use an IconElement instead of a Symbol see https://github.com/microsoft/TemplateStudio/blob/main/docs/UWP/projectTypes/navigationpane.md
             Edit String/en-US/Resources.resw: Add a menu item title for each page
             -->
-            <NavigationViewItem x:Uid="Shell_Main" Icon="Document" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.MainViewModel" />
-            <NavigationViewItem x:Uid="Shell_WebView" Icon="Document" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.WebViewViewModel" />
-            <NavigationViewItem x:Uid="Shell_ListDetails" Icon="Document" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.ListDetailsViewModel" />
-            <NavigationViewItem x:Uid="Shell_ContentGrid" Icon="Document" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.ContentGridViewModel" />
-            <NavigationViewItem x:Uid="Shell_DataGrid" Icon="Document" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.DataGridViewModel" />
+            <NavigationViewItem x:Uid="Shell_Main" Icon="AllApps" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.MainViewModel" />
+            <NavigationViewItem x:Uid="Shell_WebView" Icon="Globe" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.WebViewViewModel" />
+            <NavigationViewItem x:Uid="Shell_ListDetails" Icon="List" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.ListDetailsViewModel" />
+            <NavigationViewItem x:Uid="Shell_ContentGrid" Icon="Calculator" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.ContentGridViewModel" />
+            <NavigationViewItem x:Uid="Shell_DataGrid" Icon="List" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.DataGridViewModel" />
             <NavigationViewItem x:Uid="Shell_Blank" Icon="Document" helpers:NavigationHelper.NavigateTo="WinUI3_Application.ViewModels.BlankViewModel" />
         </NavigationView.MenuItems>
         <NavigationView.HeaderTemplate>
