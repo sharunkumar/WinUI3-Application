@@ -1,11 +1,8 @@
-﻿using System;
-using System.Windows.Input;
-
-using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-
 using Microsoft.Web.WebView2.Core;
-
+using System;
+using System.Windows.Input;
 using WinUI3_Application.Contracts.Services;
 using WinUI3_Application.Contracts.ViewModels;
 
@@ -20,7 +17,7 @@ namespace WinUI3_Application.ViewModels
     public class WebViewViewModel : ObservableRecipient, INavigationAware
     {
         // TODO: Set the default URL to display.
-        private const string DefaultUrl = "https://docs.microsoft.com/windows/apps/";
+        private const string DefaultUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
         private Uri _source;
         private bool _isLoading = true;
         private bool _hasFailures;
